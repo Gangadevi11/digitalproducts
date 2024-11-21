@@ -1,0 +1,89 @@
+/* Inventory.css */
+
+/* General Styles */
+.container-fluid {
+    padding: 20px;
+    background-color:gray;
+  }
+  
+  h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color:black;
+  }
+  
+  /* Table Styles */
+  .table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+  }
+  .table-bordered th {
+    background-color: #f8f8f8;
+  }
+  
+  /* Input Styles */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-control:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+  }
+  
+  /* Button Styles */
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container-fluid {
+      padding: 10px;
+    }
+  
+    .table {
+      font-size: 12px;
+    }
+  
+    .form-control {
+      font-size: 12px;
+    }
+  
+    .btn-success {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
